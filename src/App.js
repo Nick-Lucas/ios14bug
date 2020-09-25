@@ -3,8 +3,6 @@ import './App.css';
 
 function App() {
   const [date, setDate] = useState("2020-09-15")
-  console.log(date)
-
   
   const [open, setOpen] = useState(false)
   const [derender, setDerender] = useState(false)
