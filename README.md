@@ -12,10 +12,10 @@
 
 ##### What specifically  are the steps to reproduce?
 
-1. Render a `<form />` containing a `<input type="date />` and `<button />` 
+1. Render a `<form />` containing a `<input type="date />` and `<button />` plus some validation on the input
 1. Open the date picker, create a validation error, correct the validation error, and then submit the form
-1. Press the button and remove the form from the DOM
-1. Notice the `<button />` does not de-paint, and if you remove the whole DOM in dev tools it remains. Only reloading the page can fix this, and the button may appear on other pages until Safari is fully restarted.
+1. On submission remove the form from the DOM
+1. Notice the `<button />` does not de-paint, even though its parents have been removed from the DOM, and if you remove the whole DOM in dev tools it remains. Only reloading the page can fix this, and the button may appear on other pages until Safari is fully restarted.
 
 ##### Where exactly is the code which reproduces this?
 
