@@ -4,9 +4,9 @@
 
 [After Submit Image](./docs/after-submit.png)
 
-[iOS 14.0 Reproduction Recording](./docs/simulator-ios14.0.mov)
+[iOS 14.0 Reproduction Recording](./docs/simulator-ios-14.0.mov)
 
-[iOS 12.4 Working Fine Recording](./docs/simulator-ios12.4.mov)
+[iOS 12.4 Working Fine Recording](./docs/simulator-ios-12.4.mov)
 
 ## FAQ
 
