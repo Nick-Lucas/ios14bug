@@ -23,7 +23,7 @@
 
 ##### Can it be reproduced on a physical device?
 
-Yes, we have reproduced the bug on man iPhone 7 and iPhone X Max running iOS 14.0. The simulators are just helpful for screen recording.
+Yes, we have reproduced the bug on an iPhone 7 and iPhone X Max running iOS 14.0. The simulators are just helpful for screen recording.
 
 ---
 
