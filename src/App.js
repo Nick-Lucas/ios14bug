@@ -1,24 +1,39 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { useState } from 'react';
 import './App.css';
 
 function App() {
+  const [date, setDate] = useState("2020-09-15")
+  console.log(date)
+
+  
+  const [open, setOpen] = useState(false)
+  const [derender, setDerender] = useState(false)
+
+  if (derender) return null
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <button onClick={() => setOpen(true)}>Open</button>
+      <button onClick={() => setDerender(true)}>Derender All</button>
+
+      <div>
+        {open && 
+          <form onSubmit={(e) => {
+            e.preventDefault()
+            setOpen(false)
+          }}>
+            <input 
+              type="date" 
+              min="2020-05-01" 
+              max="2020-11-30" 
+              value={date} 
+              onChange={e => setDate(e.target.value)} 
+            />
+
+            <button type="submit">Submit</button>
+          </form>
+        }
+      </div>
     </div>
   );
 }
