@@ -4,9 +4,9 @@
 
 [After Submit Image](./docs/after-submit.png)
 
-[iOS 14.0 Reproduction Recording](./docs/simulator-ios-14.0.mov)
+[iOS 14.0 Reproduction Recording](./docs/simulator-ios-14.0.mov) or on [Youtube](https://youtu.be/0XK0okaJ6zA)
 
-[iOS 12.4 Working Fine Recording](./docs/simulator-ios-12.4.mov)
+[iOS 12.4 Working Fine Recording](./docs/simulator-ios-12.4.mov) or on [Youtube](https://youtu.be/gWIGsorprkU)
 
 ## FAQ
 
