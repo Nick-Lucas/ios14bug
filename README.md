@@ -27,4 +27,4 @@ Yes, we have reproduced the bug on man iPhone 7 and iPhone X Max running iOS 14.
 
 ---
 
-![After Submit Image](./docs/after-submit.png)
+![](./docs/simulator-ios-14.0.gif)
